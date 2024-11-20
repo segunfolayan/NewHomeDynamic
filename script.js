@@ -1,3 +1,4 @@
+<script>
 const words = ["Bars", "Cathedral", "Cinema", "Museum", "Bull ring"]
 
 function changeWord(){
@@ -74,4 +75,4 @@ document.getElementById('button_restart').addEventListener('click', (event) => {
   element_total2.innerText = 0;
 
 });
-
+</script>
