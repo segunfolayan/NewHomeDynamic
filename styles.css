@@ -1,0 +1,49 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+   
+    .hero-image {
+      background-image: url('https://a.travel-assets.com/findyours-php/viewfinder/images/res70/488000/488224-birmingham-city-centre.jpg'); 
+      height: 140vh;
+      background-size: cover;
+      background-position: center;
+    }
+
+    
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    
+    .restaurant-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    
+    .restaurant-option {
+      text-align: center;
+    }
+
+    
+    .restaurant-option img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%; 
+      border: 2px solid #ccc;
+    }
+
+    
+    .description {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 10px;
+    }
+.game{
+  text-align: center;
+}
